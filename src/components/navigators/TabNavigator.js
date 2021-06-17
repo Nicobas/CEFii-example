@@ -18,22 +18,11 @@ const TabNavigator = () => {
         },
         labelStyle: {
           fontSize: 12,
+          fontWeight: 'bold',
         },
         activeTintColor: '#ff802e',
         inactiveTintColor: '#425be0',
       }}>
-      <Tab.Screen
-        name="CheckList"
-        component={CheckListScreen}
-        options={{
-          tabBarLabel: 'Ma Todo',
-          tabBarIcon: ({focused, color, size, name}) => {
-            return (
-              <FontAwesome name="th-list" size={size * 0.9} color={color} />
-            );
-          },
-        }}
-      />
       <Tab.Screen
         name="Tab1"
         component={Tab1Screen}

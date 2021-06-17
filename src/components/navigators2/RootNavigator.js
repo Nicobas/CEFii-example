@@ -6,7 +6,7 @@ import {useSelector} from 'react-redux';
 import AuthNavigator from './AuthNavigator';
 
 const RootNavigator = () => {
-  const userData = useSelector(s => s.userData);
+  const userData = useSelector(state => state.userData);
 
   return (
     <NavigationContainer>

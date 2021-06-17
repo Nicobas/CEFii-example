@@ -11,10 +11,16 @@ import {
 import CheckListItem from '../../cards/CheckListCard/CheckListCard';
 
 import styles from './Tab3Screen.styles';
-import {connect, useSelector} from 'react-redux';
-import {compose} from 'redux';
+import {useDispatch, useSelector} from 'react-redux';
 
-const Tab3Screen = ({firstName, lastName, logout}) => {
+const Tab3Screen = () => {
+  const {firstName, lastName} = useSelector(s => s.userData);
+  const dispatch = useDispatch();
+
+  const logout = useCallback(() => {
+    dispatch({type: 'logout'});
+  }, [dispatch]);
+
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.text}>Tab 3 Screen</Text>

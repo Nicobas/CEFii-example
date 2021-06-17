@@ -46,7 +46,8 @@ const useController = props => {
       return Alert.alert('Erreur', 'Les champs sont vides ou non valides');
     }
 
-    dispatch({type: 'login', data: {firstName, lastName}});
+    const action = {type: 'login', data: {firstName, lastName}};
+    dispatch(action);
   }, [
     dispatch,
     firstName,

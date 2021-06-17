@@ -12,7 +12,6 @@ import Page2Screen from '../screens/Page2Screen/Page2Screen';
 const StackNavigator = () => {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="TabNav" component={TabNavigator} />
       <Stack.Screen name="DrawerNav" component={DrawerNavigator} />
 
       <Stack.Screen name="Page1" component={Page1Screen} />
