@@ -1,0 +1,63 @@
+{
+  "categories": [
+    "6 - 8 ans",
+    "Anniversaire",
+    "Créativité",
+    "Réalité virtuelle",
+    "Visite guidée"
+  ],
+  "activities": [
+    {
+      "id": "60c224f90ab5b83284401fc0",
+      "title": "Visite de Monmartre",
+      "subtitle": "Vous découvrirez la richesse culturelle de Montmartre. Plusieurs visites en une !  ",
+      "coverUri": "https://provider.kinlii.com/assets/2021-06-10/sjTROGbZoDUtRrlr1GQI.jpg"
+    },
+    {
+      "id": "60c222dd0ab5b83284401fbf",
+      "title": "Visite du quartier latin ",
+      "subtitle": "Un quartier riche d'histoires qui nous promène au travers des siècles ! ",
+      "coverUri": "https://provider.kinlii.com/assets/2021-06-10/QEQr13UTEIXmQM6QVFbD.jpg"
+    },
+    {
+      "id": "60ba3084ad475dfefe521be9",
+      "title": "Anniversaire Réalité Virtuelle ",
+      "subtitle": null,
+      "coverUri": "https://provider.kinlii.com/assets/2021-06-04/GtkaTOESzt4YF2rrlQav.jpg"
+    },
+    {
+      "id": "60b8dd7c5c57317641b6f233",
+      "title": "Visite guidée en vélo électrique",
+      "subtitle": "Pénétrez l'inaccessible, vivez l'inoubliable, découvrez l'inconnu...",
+      "coverUri": "https://provider.kinlii.com/assets/2021-06-01/KLKScJo4dDdQT3cDL54j.jpg"
+    },
+    {
+      "id": "60b6329cc343d76713b1447a",
+      "title": "Atelier de création de parfums ",
+      "subtitle": "Venez composer votre parfum !",
+      "coverUri": "https://provider.kinlii.com/assets/2021-06-01/AhckwExcnwBXhtl3U3ip.png"
+    }
+  ],
+  "trendActivities": [
+    {
+      "id": "60c224f90ab5b83284401fc0",
+      "title": "Visite de Monmartre",
+      "subtitle": "Vous découvrirez la richesse culturelle de Montmartre. Plusieurs visites en une !  ",
+      "coverUri": "https://provider.kinlii.com/assets/2021-06-10/sjTROGbZoDUtRrlr1GQI.jpg"
+    },
+    {
+      "id": "60c222dd0ab5b83284401fbf",
+      "title": "Visite du quartier latin ",
+      "subtitle": "Un quartier riche d'histoires qui nous promène au travers des siècles ! ",
+      "coverUri": "https://provider.kinlii.com/assets/2021-06-10/QEQr13UTEIXmQM6QVFbD.jpg"
+    }
+  ],
+  "favoriteActivities": [
+    {
+      "id": "60c222dd0ab5b83284401fbf",
+      "title": "Visite du quartier latin ",
+      "subtitle": "Un quartier riche d'histoires qui nous promène au travers des siècles ! ",
+      "coverUri": "https://provider.kinlii.com/assets/2021-06-10/QEQr13UTEIXmQM6QVFbD.jpg"
+    }
+  ]
+}
