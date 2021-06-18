@@ -11,6 +11,7 @@ import {
 import CheckListItem from '../../cards/CheckListCard/CheckListCard';
 
 import styles from './Page1Screen.styles';
+import Increment from '../../others/Increment/Increment';
 
 const Page1Screen = ({route, navigation}) => {
   const openPage1 = useCallback(() => {
@@ -24,6 +25,7 @@ const Page1Screen = ({route, navigation}) => {
       <TouchableOpacity style={styles.btn} onPress={openPage1}>
         <Text>Go back</Text>
       </TouchableOpacity>
+      <Increment />
     </SafeAreaView>
   );
 };

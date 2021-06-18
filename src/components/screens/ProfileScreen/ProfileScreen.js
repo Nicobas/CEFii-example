@@ -10,10 +10,10 @@ import {
 
 import CheckListItem from '../../cards/CheckListCard/CheckListCard';
 
-import styles from './Tab3Screen.styles';
+import styles from './ProfileScreen.styles';
 import {useDispatch, useSelector} from 'react-redux';
 
-const Tab3Screen = () => {
+const ProfileScreen = () => {
   const {firstName, lastName} = useSelector(s => s.userData);
   const dispatch = useDispatch();
 
@@ -23,7 +23,7 @@ const Tab3Screen = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.text}>Tab 3 Screen</Text>
+      <Text style={styles.text}>Profile Screen</Text>
       <Text style={styles.text}>Bonjour {firstName + ' ' + lastName}</Text>
       <TouchableOpacity style={styles.logout} onPress={logout}>
         <Text>Se déconnecter</Text>
@@ -32,4 +32,4 @@ const Tab3Screen = () => {
   );
 };
 
-export default Tab3Screen;
+export default ProfileScreen;

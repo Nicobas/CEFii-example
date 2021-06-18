@@ -4,7 +4,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import CheckListScreen from '../screens/CheckListScreen/CheckListScreen';
 import Tab1Screen from '../screens/Tab1Screen/Tab1Screen';
 import Tab2Screen from '../screens/Tab2Screen/Tab2Screen';
-import Tab3Screen from '../screens/Tab3Screen/Tab3Screen';
+import ProfileScreen from '../screens/ProfileScreen/ProfileScreen';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
 const Tab = createBottomTabNavigator();
@@ -47,7 +47,7 @@ const TabNavigator = () => {
       />
       <Tab.Screen
         name="Tab3"
-        component={Tab3Screen}
+        component={ProfileScreen}
         options={{
           tabBarLabel: 'Profil',
           tabBarIcon: ({focused, color, size, name}) => {
