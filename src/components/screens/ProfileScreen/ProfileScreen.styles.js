@@ -15,6 +15,15 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     marginTop: 50,
   },
+  image: {
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    backgroundColor: 'grey',
+    alignSelf: 'center',
+    marginBottom: 20,
+    marginTop: 20,
+  },
 });
 
 export default styles;

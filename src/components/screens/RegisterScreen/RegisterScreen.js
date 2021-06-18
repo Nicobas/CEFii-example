@@ -29,15 +29,25 @@ const RegisterScreen = props => {
     validatePasswordConfirm,
     isPasswordConfirmValid,
     onSubmit,
+    selectProfilePicture,
+    profilePicture,
   } = useController(props);
 
   return (
     <ScrollView style={styles.container}>
       <Text style={styles.titleText}>Inscription</Text>
-      <Image
-        style={styles.image}
-        source={require('../../../assets/no-profile-picture.png')}
-      />
+      <TouchableOpacity onPress={selectProfilePicture}>
+        <Image
+          style={styles.image}
+          source={
+            !profilePicture
+              ? require('../../../assets/no-profile-picture.png')
+              : {
+                  uri: profilePicture.path,
+                }
+          }
+        />
+      </TouchableOpacity>
       <TextInput
         value={firstName}
         onChangeText={setFirstName}

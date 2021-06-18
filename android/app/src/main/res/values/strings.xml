@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">RNExample</string>
+    <string name="app_name">CEFii</string>
+    <string name="google_map_api_key">Ma clé API Google Map</string>
 </resources>

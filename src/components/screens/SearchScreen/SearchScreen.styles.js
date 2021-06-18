@@ -20,6 +20,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     borderRadius: 5,
     marginRight: 10,
+    alignItems: 'center',
   },
   inputContainer: {
     flexDirection: 'row',
@@ -31,6 +32,10 @@ const styles = StyleSheet.create({
   addressText: {
     paddingHorizontal: 10,
     marginBottom: 5,
+  },
+  map: {
+    width: '100%',
+    height: '100%',
   },
 });
 
